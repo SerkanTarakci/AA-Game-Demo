@@ -14,8 +14,8 @@ public class GameControllerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.SetInt("Kayit", int.Parse(SceneManager.GetActiveScene().name));
-        //roundedCircle = GameObject.FindGameObjectWithTag("RoundedCircleTag");        
+        PlayerPrefs.SetInt("Record", int.Parse(SceneManager.GetActiveScene().name));
+        //roundedCircle = GameObject.FindGameObjectWithTag("RotatingCircleTag");        
         levelText.text = SceneManager.GetActiveScene().name;
         needleLeftText.text = howManyNeedle + "";
     }

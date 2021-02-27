@@ -24,7 +24,7 @@ public class NeedleScript : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.tag == "RoundedCircleTag")
+        if (col.tag == "RotatingCircleTag")
         {
             transform.SetParent(col.transform);
             moveControl = true;

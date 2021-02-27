@@ -6,7 +6,6 @@ public class ThrowingCircleScript : MonoBehaviour
 {
     public GameObject needle;
     GameObject gameController;
-
     private void Start()
     {
         gameController = GameObject.FindGameObjectWithTag("GameControllerTag");
@@ -15,14 +14,12 @@ public class ThrowingCircleScript : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1"))
         {
-            NeedleFirlat();
-
+            ThrowNeedle();
         }
     }
-    void NeedleFirlat()
+    void ThrowNeedle()
     {
         Instantiate(needle,transform.position,transform.rotation);
         gameController.GetComponent<GameControllerScript>().ShowHowManyLeft();
-
     }
 }

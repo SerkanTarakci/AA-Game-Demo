@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 3581253155232909499}
   m_Layer: 0
   m_Name: ThrowingCircle
-  m_TagString: ClickCircleTag
+  m_TagString: ThrowingCircleTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -582,8 +582,8 @@ GameObject:
   - component: {fileID: 3581253156137887249}
   - component: {fileID: 3581253156137887250}
   m_Layer: 0
-  m_Name: RoundedCircle
-  m_TagString: RoundedCircleTag
+  m_Name: RotatingCircle
+  m_TagString: RotatingCircleTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,13 +7,13 @@ public class MainMenuControlScript : MonoBehaviour
 {
     public void Play()
     {
-        if(PlayerPrefs.GetInt("Kayit")==0)
+        if(PlayerPrefs.GetInt("Record")==0)
         {
             SceneManager.LoadScene("1");
         }
         else
         {
-            SceneManager.LoadScene(PlayerPrefs.GetInt("Kayit"));
+            SceneManager.LoadScene(PlayerPrefs.GetInt("Record"));
         }
     }
 
