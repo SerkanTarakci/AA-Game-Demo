@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClickCircleCode : MonoBehaviour
+public class ThrowingCircleScript : MonoBehaviour
 {
     public GameObject needle;
     GameObject gameController;

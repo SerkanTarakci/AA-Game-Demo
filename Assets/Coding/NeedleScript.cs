@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NeedleHeadScript : MonoBehaviour
+public class NeedleScript : MonoBehaviour
 {
     Rigidbody2D physiscs;
     public float speed;

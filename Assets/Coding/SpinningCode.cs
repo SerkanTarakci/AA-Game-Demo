@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dondurme : MonoBehaviour
+public class SpinningCode : MonoBehaviour
 {
     public float speed;
     

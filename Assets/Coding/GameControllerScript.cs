@@ -27,8 +27,8 @@ public class GameControllerScript : MonoBehaviour
 
     IEnumerator CallGameOver()
     {
-        roundedCircle.GetComponent<dondurme>().enabled = false;
-        clickCircle.GetComponent<ClickCircleCode>().enabled = false;
+        roundedCircle.GetComponent<SpinningCode>().enabled = false;
+        clickCircle.GetComponent<ThrowingCircleScript>().enabled = false;
         animator.SetTrigger("GameOverTrigger");
         goNewLevel = false;
         yield return new WaitForSeconds(1.5f);
@@ -47,8 +47,8 @@ public class GameControllerScript : MonoBehaviour
 
     IEnumerator newLevel()
     {
-        roundedCircle.GetComponent<dondurme>().enabled = false;
-        clickCircle.GetComponent<ClickCircleCode>().enabled = false;
+        roundedCircle.GetComponent<SpinningCode>().enabled = false;
+        clickCircle.GetComponent<ThrowingCircleScript>().enabled = false;
         yield return new WaitForSeconds(1.5f);
         if (goNewLevel)
         {

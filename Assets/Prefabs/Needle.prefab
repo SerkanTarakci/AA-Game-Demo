@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6212532806890424834}
   - component: {fileID: 6212532806890424862}
   m_Layer: 0
-  m_Name: NeedleHead
+  m_Name: Needle
   m_TagString: NeedleTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 6212532807294005015}
   - component: {fileID: 6212532807294005014}
   m_Layer: 0
-  m_Name: Needle
+  m_Name: NeedleStick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
