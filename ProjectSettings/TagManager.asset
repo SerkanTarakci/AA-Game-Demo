@@ -4,11 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - RoundedCircleTag
-  - ClickCircleTag
   - NeedleTag
   - GameControllerTag
   - Needle
+  - RotatingCircleTag
+  - ThrowingCircleTag
   layers:
   - Default
   - TransparentFX
