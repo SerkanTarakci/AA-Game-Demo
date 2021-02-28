@@ -19,12 +19,10 @@ public class GameControllerScript : MonoBehaviour
         levelText.text = SceneManager.GetActiveScene().name;
         needleLeftText.text = howManyNeedle + "";
     }
-
     public void GameOver()
     {
         StartCoroutine(CalledGameOver());
     }
-
     IEnumerator CalledGameOver()
     {
         roundedCircle.GetComponent<SpinningCode>().enabled = false;
@@ -34,7 +32,6 @@ public class GameControllerScript : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene("MainMenu");
     }
-
     public void ShowHowManyLeft()
     {
         howManyNeedle--;
@@ -44,7 +41,6 @@ public class GameControllerScript : MonoBehaviour
             StartCoroutine(newLevel());
         }
     }
-
     IEnumerator newLevel()
     {
         roundedCircle.GetComponent<SpinningCode>().enabled = false;
