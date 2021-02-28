@@ -22,10 +22,10 @@ public class GameControllerScript : MonoBehaviour
 
     public void GameOver()
     {
-        StartCoroutine(CallGameOver());
+        StartCoroutine(CalledGameOver());
     }
 
-    IEnumerator CallGameOver()
+    IEnumerator CalledGameOver()
     {
         roundedCircle.GetComponent<SpinningCode>().enabled = false;
         clickCircle.GetComponent<ThrowingCircleScript>().enabled = false;
